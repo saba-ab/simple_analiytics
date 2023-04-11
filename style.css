@@ -56,7 +56,8 @@ section {
   margin-top: 70.5px;
 }
 .analytics_wrap {
-  display: inline-block;
+  /* display: inline-block; */
+  width: 1000px;
 }
 .data_text {
   width: 560px;
