@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
-
 * {
   margin: 0;
   padding: 0;
@@ -28,7 +27,6 @@ section {
 .logo {
   display: inline-block;
 }
-
 .header {
   display: inline-block;
   font-size: 20px;
@@ -39,7 +37,6 @@ section {
 .acc {
   margin-top: 150px;
 }
-
 .acc > div button {
   min-width: 300px;
   background-color: #333333;
@@ -58,12 +55,9 @@ section {
   margin-left: 500px;
   margin-top: 70.5px;
 }
-
 .analytics_wrap {
   display: inline-block;
-  /* vertical-align: top; */
 }
-
 .data_text {
   width: 560px;
   font-size: 36px;
