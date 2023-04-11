@@ -10,9 +10,9 @@ html {
   font-family: "Poppins", sans-serif;
   height: 100%;
 }
-section {
+.container {
+  width: 1440px;
   display: inline-block;
-  vertical-align: middle;
 }
 .login_area {
   width: 400px;
@@ -20,6 +20,7 @@ section {
   /* height: 100%; */
   height: 900px;
   text-align: center;
+  display: inline-block;
 }
 .simple_analytics {
   padding-top: 70px;
@@ -56,8 +57,9 @@ section {
   margin-top: 70.5px;
 }
 .analytics_wrap {
-  /* display: inline-block; */
+  display: inline-block;
   width: 1000px;
+  vertical-align: top;
 }
 .data_text {
   width: 560px;
