@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+/* @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); */
 * {
   margin: 0;
   padding: 0;
@@ -8,10 +8,11 @@ section,
 body,
 html {
   font-family: "Poppins", sans-serif;
-  height: 100%;
+  height: 100vh;
 }
 .container {
   width: 1440px;
+  height: 100%;
   display: inline-block;
 }
 .login_area {
@@ -58,7 +59,7 @@ html {
 }
 .analytics_wrap {
   display: inline-block;
-  width: 1000px;
+  width: calc(100% - 405px);
   vertical-align: top;
 }
 .data_text {
@@ -66,4 +67,69 @@ html {
   font-size: 36px;
   color: #4f4f4f;
   margin-left: 70px;
+}
+
+#dashboard {
+  cursor: default;
+}
+
+#dashboard:hover {
+  cursor: pointer;
+}
+
+.dash {
+  display: inline-block;
+}
+
+.set {
+  display: inline-block;
+}
+
+.navigation {
+  font-family: "poppins";
+}
+.navigation .settings button {
+  background-color: #2f80ed;
+  min-width: 10px;
+  font-family: "poppins";
+  margin-right: 35px;
+}
+
+.navigation .dashboard button {
+  background-color: #2f80ed;
+  min-width: 110px;
+  font-family: "poppins";
+}
+
+.out_icon {
+  display: inline-block;
+}
+.out_button {
+  display: inline-block;
+}
+.navigation .out_button button {
+  background-color: #2f80ed;
+  min-width: 100px;
+  margin-top: calc(400px);
+  margin-right: 50px;
+}
+#logout {
+  cursor: default;
+}
+
+#logout:hover {
+  cursor: pointer;
+}
+
+#settings {
+  cursor: default;
+}
+
+#settings:hover {
+  cursor: pointer;
+}
+
+.dash_wrap {
+  max-width: 820px;
+  margin: 0 auto;
 }
