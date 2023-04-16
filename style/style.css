@@ -128,8 +128,52 @@ html {
 #settings:hover {
   cursor: pointer;
 }
+.right_section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 820px;
+}
+.analytics_wrap .dash_wrap {
+  max-width: 100%;
+}
+.dash_head {
+  width: 100%;
+}
+.views_head {
+  width: 100%;
+}
+.views {
+  display: flex;
+  justify-content: space-between;
+  margin-right: ;
+}
+.day {
+  width: 243px;
+  height: 150px;
+  display: inline-block;
+  background-color: #333333;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 25px;
+}
 
-.dash_wrap {
-  max-width: 820px;
-  margin: 0 auto;
+.week {
+  width: 227px;
+  height: 150px;
+  display: inline-block;
+  background-color: #333333;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 25px;
+}
+
+.month {
+  width: 227px;
+  height: 150px;
+  display: inline-block;
+  background-color: #333333;
+  text-align: center;
+  color: #ffffff;
+  border-radius: 25px;
 }
